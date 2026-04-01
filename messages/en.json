@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookAppointment": "Book Appointment"
+  },
+  "hero": {
+    "home": {
+      "headline": "Your well-being, our priority",
+      "subtitle": "Multidisciplinary therapy practice in Molenbeek. Physiotherapy, psychology and medical pedicure in a caring environment.",
+      "cta": "Book an Appointment",
+      "ctaSecondary": "Discover Our Services"
+    },
+    "services": {
+      "headline": "Our Services",
+      "subtitle": "A holistic approach to your physical and mental health"
+    },
+    "about": {
+      "headline": "Our Story",
+      "subtitle": "Founded by Salah Assbane, our practice supports residents of Molenbeek and Brussels toward lasting well-being."
+    },
+    "contact": {
+      "headline": "Contact Us",
+      "subtitle": "Book an appointment or ask us your questions. We are here to listen."
+    }
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Care tailored to your needs",
+    "learnMore": "Learn more",
+    "bookService": "Book this service",
+    "physiotherapy": {
+      "name": "Physiotherapy",
+      "shortDesc": "Rehabilitation, pain relief and recovery after injury or surgery.",
+      "longDesc": "Our team of physiotherapists uses manual techniques, therapeutic exercises and modern technologies to help you regain mobility and reduce pain.",
+      "benefits": ["Pain relief", "Post-surgical rehabilitation", "Improved mobility", "Injury prevention"]
+    },
+    "psychology": {
+      "name": "Psychology",
+      "shortDesc": "Psychological support for stress, anxiety, depression and life transitions.",
+      "longDesc": "In a confidential and caring space, our psychologists support you with evidence-based approaches to help you overcome your challenges.",
+      "benefits": ["Stress and anxiety management", "Depression support", "Couple and family therapy", "Life transition support"]
+    },
+    "pedicure": {
+      "name": "Medical Pedicure",
+      "shortDesc": "Professional foot care for your health and daily comfort.",
+      "longDesc": "Our medical pedicurists treat common foot problems with strict hygiene standards and special attention to diabetic patients.",
+      "benefits": ["Ingrown nail care", "Corn and callus treatment", "Diabetic foot care", "Hygiene and comfort"]
+    },
+    "other": {
+      "name": "Other Services",
+      "shortDesc": "Complementary services for comprehensive health care.",
+      "longDesc": "We also offer other therapeutic services to meet all your health needs.",
+      "benefits": ["Multidisciplinary approach", "Personalized follow-up", "Care coordination", "Preventive advice"]
+    }
+  },
+  "team": {
+    "sectionTitle": "Our Team",
+    "sectionSubtitle": "Qualified and caring professionals",
+    "meetTeam": "Meet the full team",
+    "founder": {
+      "name": "Salah Assbane",
+      "role": "Founder & Physiotherapist",
+      "bio": "Passionate about health and well-being, Salah founded Assbane Therapy with the vision of providing quality, accessible and personalized care to the residents of Molenbeek."
+    },
+    "member2": {
+      "name": "Dr. Leila Benali",
+      "role": "Clinical Psychologist",
+      "bio": "Specialized in cognitive behavioral therapy, Leila supports her patients with empathy and professionalism."
+    },
+    "member3": {
+      "name": "Sophie Vandenberghe",
+      "role": "Medical Pedicurist",
+      "bio": "Qualified in medical pedicure, Sophie brings specific expertise in diabetic foot care."
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Testimonials",
+    "sectionSubtitle": "What our patients say about us",
+    "items": [
+      {
+        "quote": "Thanks to Salah, I regained my mobility after knee surgery. Professional, attentive and highly skilled.",
+        "author": "Marie D.",
+        "location": "Molenbeek",
+        "service": "Physiotherapy"
+      },
+      {
+        "quote": "A space where you feel heard and respected. My psychologist helped me through a very difficult period.",
+        "author": "Ahmed K.",
+        "location": "Brussels",
+        "service": "Psychology"
+      },
+      {
+        "quote": "Finally professional foot care close to home. The hygiene is impeccable and the team is very gentle.",
+        "author": "Fatima B.",
+        "location": "Molenbeek",
+        "service": "Medical Pedicure"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know",
+    "items": [
+      {
+        "question": "How do I book an appointment?",
+        "answer": "You can reach us by phone, email or through the contact form on our website. We will respond within 24 hours."
+      },
+      {
+        "question": "Do you accept health insurance?",
+        "answer": "Yes, we work with most Belgian health insurance funds. Feel free to contact us to verify your coverage."
+      },
+      {
+        "question": "What are your opening hours?",
+        "answer": "We are open Monday to Friday from 8am to 7pm, and Saturday from 9am to 2pm. Evening appointments are available by request."
+      },
+      {
+        "question": "In which languages do you consult?",
+        "answer": "Our team speaks French, Dutch and English. We can also communicate in Arabic."
+      },
+      {
+        "question": "How much does a session cost?",
+        "answer": "Rates vary by service. A physiotherapy session costs between €25 and €45, with partial reimbursement through health insurance."
+      },
+      {
+        "question": "Is the practice wheelchair accessible?",
+        "answer": "Yes, our practice is fully wheelchair accessible and there is parking nearby."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to take care of yourself?",
+    "subtitle": "Book an appointment today and take the first step toward your well-being.",
+    "button": "Book an Appointment"
+  },
+  "contact": {
+    "sectionTitle": "Find Us",
+    "address": "Rue de l'Avenir 42, 1080 Molenbeek-Saint-Jean, Brussels",
+    "phone": "+32 2 000 00 00",
+    "email": "info@assbane-therapy.be",
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Monday - Friday: 8am - 7pm",
+      "saturday": "Saturday: 9am - 2pm",
+      "sunday": "Sunday: Closed",
+      "weekdaysLabel": "Weekdays",
+      "saturdayLabel": "Saturday",
+      "sundayLabel": "Sunday"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "subjects": {
+        "appointment": "Appointment request",
+        "general": "General inquiry",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send",
+      "success": "Thank you! Your message has been sent. We will get back to you as soon as possible.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "steps": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "A simple and personalized journey",
+    "items": [
+      {
+        "title": "Book an appointment",
+        "description": "Contact us by phone, email or through our online form."
+      },
+      {
+        "title": "Initial consultation",
+        "description": "Meet your therapist for a complete and personalized assessment."
+      },
+      {
+        "title": "Treatment plan",
+        "description": "Receive a care program tailored to your specific needs."
+      },
+      {
+        "title": "Regular follow-up",
+        "description": "Benefit from continuous support to track your progress."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Multidisciplinary therapy practice in the heart of Molenbeek.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms & Conditions",
+    "copyright": "© {year} Assbane Therapy. All rights reserved."
+  },
+  "booking": {
+    "pageTitle": "Book an Appointment",
+    "pageSubtitle": "Schedule your consultation in a few simple steps",
+    "steps": {
+      "service": "Service",
+      "practitioner": "Practitioner",
+      "datetime": "Date & Time",
+      "info": "Your Details",
+      "confirm": "Confirmation"
+    },
+    "selectService": "Choose a service",
+    "selectPractitioner": "Choose your practitioner",
+    "selectDate": "Choose a date",
+    "selectTime": "Choose a time",
+    "availableSlots": "Available time slots",
+    "noSlots": "No available slots for this date",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "patientInfo": "Your information",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "notes": "Notes or comments (optional)",
+    "notesPlaceholder": "Briefly describe the reason for your visit...",
+    "newPatient": "I am a new patient",
+    "acceptTerms": "I accept the privacy policy",
+    "back": "Back",
+    "next": "Next",
+    "bookNow": "Confirm Appointment",
+    "summary": "Summary",
+    "summaryService": "Service",
+    "summaryPractitioner": "Practitioner",
+    "summaryDate": "Date",
+    "summaryTime": "Time",
+    "summaryPatient": "Patient",
+    "success": {
+      "title": "Appointment Confirmed!",
+      "message": "Your appointment has been registered. You will receive a confirmation email at {email}.",
+      "reference": "Reference",
+      "backHome": "Back to Home",
+      "bookAnother": "Book Another Appointment"
+    },
+    "any": "No preference"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "bookAppointment": "Afspraak maken"
+  },
+  "hero": {
+    "home": {
+      "headline": "Uw welzijn, onze prioriteit",
+      "subtitle": "Multidisciplinaire therapiepraktijk in Molenbeek. Kinesitherapie, psychologie en medische pedicure in een zorgzame omgeving.",
+      "cta": "Afspraak maken",
+      "ctaSecondary": "Ontdek onze diensten"
+    },
+    "services": {
+      "headline": "Onze diensten",
+      "subtitle": "Een holistische aanpak voor uw fysieke en mentale gezondheid"
+    },
+    "about": {
+      "headline": "Ons verhaal",
+      "subtitle": "Opgericht door Salah Assbane, begeleidt onze praktijk de inwoners van Molenbeek en Brussel naar duurzaam welzijn."
+    },
+    "contact": {
+      "headline": "Contacteer ons",
+      "subtitle": "Maak een afspraak of stel uw vragen. Wij luisteren graag naar u."
+    }
+  },
+  "services": {
+    "sectionTitle": "Onze diensten",
+    "sectionSubtitle": "Zorg op maat van uw behoeften",
+    "learnMore": "Meer info",
+    "bookService": "Boek deze dienst",
+    "physiotherapy": {
+      "name": "Kinesitherapie",
+      "shortDesc": "Revalidatie, pijnverlichting en herstel na blessure of operatie.",
+      "longDesc": "Ons team van kinesitherapeuten gebruikt manuele technieken, therapeutische oefeningen en moderne technologieën om uw mobiliteit te herstellen en pijn te verminderen.",
+      "benefits": ["Pijnverlichting", "Postoperatieve revalidatie", "Verbeterde mobiliteit", "Blessurepreventie"]
+    },
+    "psychology": {
+      "name": "Psychologie",
+      "shortDesc": "Psychologische begeleiding bij stress, angst, depressie en levensovergangen.",
+      "longDesc": "In een vertrouwelijke en zorgzame ruimte begeleiden onze psychologen u met evidence-based benaderingen om uw uitdagingen te overwinnen.",
+      "benefits": ["Stress- en angstbeheer", "Ondersteuning bij depressie", "Relatie- en gezinstherapie", "Begeleiding bij levensovergangen"]
+    },
+    "pedicure": {
+      "name": "Medische pedicure",
+      "shortDesc": "Professionele voetverzorging voor uw gezondheid en dagelijks comfort.",
+      "longDesc": "Onze medische pedicures behandelen veelvoorkomende voetproblemen met strikte hygiënenormen en bijzondere aandacht voor diabetische patiënten.",
+      "benefits": ["Ingegroeide nagels", "Behandeling van eelt en likdoorns", "Diabetische voetzorg", "Hygiëne en comfort"]
+    },
+    "other": {
+      "name": "Overige zorg",
+      "shortDesc": "Aanvullende diensten voor een totaalaanpak van uw gezondheid.",
+      "longDesc": "Wij bieden ook andere therapeutische diensten aan om aan al uw gezondheidsbehoeften te voldoen.",
+      "benefits": ["Multidisciplinaire aanpak", "Persoonlijke opvolging", "Coördinatie van zorg", "Preventief advies"]
+    }
+  },
+  "team": {
+    "sectionTitle": "Ons team",
+    "sectionSubtitle": "Gekwalificeerde en zorgzame professionals",
+    "meetTeam": "Ontdek het volledige team",
+    "founder": {
+      "name": "Salah Assbane",
+      "role": "Oprichter & Kinesitherapeut",
+      "bio": "Gepassioneerd door gezondheid en welzijn, richtte Salah Assbane Therapy op met de visie om kwaliteitsvolle, toegankelijke en persoonlijke zorg te bieden aan de inwoners van Molenbeek."
+    },
+    "member2": {
+      "name": "Dr. Leila Benali",
+      "role": "Klinisch psychologe",
+      "bio": "Gespecialiseerd in cognitieve gedragstherapie, begeleidt Leila haar patiënten met empathie en professionalisme."
+    },
+    "member3": {
+      "name": "Sophie Vandenberghe",
+      "role": "Medische pedicure",
+      "bio": "Gediplomeerd in medische pedicure, brengt Sophie specifieke expertise in diabetische voetzorg."
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Getuigenissen",
+    "sectionSubtitle": "Wat onze patiënten over ons zeggen",
+    "items": [
+      {
+        "quote": "Dankzij Salah heb ik mijn mobiliteit teruggekregen na een knieoperatie. Professioneel, attent en zeer bekwaam.",
+        "author": "Marie D.",
+        "location": "Molenbeek",
+        "service": "Kinesitherapie"
+      },
+      {
+        "quote": "Een plek waar je je gehoord en gerespecteerd voelt. Mijn psychologe heeft me geholpen door een zeer moeilijke periode.",
+        "author": "Ahmed K.",
+        "location": "Brussel",
+        "service": "Psychologie"
+      },
+      {
+        "quote": "Eindelijk professionele voetverzorging dicht bij huis. De hygiëne is onberispelijk en het team is zeer zacht.",
+        "author": "Fatima B.",
+        "location": "Molenbeek",
+        "service": "Medische pedicure"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Veelgestelde vragen",
+    "sectionSubtitle": "Alles wat u moet weten",
+    "items": [
+      {
+        "question": "Hoe maak ik een afspraak?",
+        "answer": "U kunt ons bereiken per telefoon, e-mail of via het contactformulier op onze website. Wij antwoorden binnen 24 uur."
+      },
+      {
+        "question": "Werkt u met ziekenfondsen?",
+        "answer": "Ja, we werken samen met de meeste Belgische ziekenfondsen. Neem gerust contact op om uw dekking te verifiëren."
+      },
+      {
+        "question": "Wat zijn uw openingsuren?",
+        "answer": "Wij zijn geopend van maandag tot vrijdag van 8u tot 19u, en zaterdag van 9u tot 14u. Avondconsultaties zijn mogelijk op afspraak."
+      },
+      {
+        "question": "In welke talen consulteert u?",
+        "answer": "Ons team spreekt Frans, Nederlands en Engels. We kunnen ook communiceren in het Arabisch."
+      },
+      {
+        "question": "Hoeveel kost een sessie?",
+        "answer": "De tarieven variëren per dienst. Een kinesitherapiesessie kost tussen 25€ en 45€, met gedeeltelijke terugbetaling door het ziekenfonds."
+      },
+      {
+        "question": "Is de praktijk toegankelijk voor rolstoelgebruikers?",
+        "answer": "Ja, onze praktijk is volledig rolstoeltoegankelijk en er is parking in de buurt."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Klaar om voor uzelf te zorgen?",
+    "subtitle": "Maak vandaag nog een afspraak en zet de eerste stap naar uw welzijn.",
+    "button": "Afspraak maken"
+  },
+  "contact": {
+    "sectionTitle": "Ons vinden",
+    "address": "Toekomststraat 42, 1080 Sint-Jans-Molenbeek",
+    "phone": "+32 2 000 00 00",
+    "email": "info@assbane-therapy.be",
+    "hours": {
+      "title": "Openingsuren",
+      "weekdays": "Maandag - Vrijdag: 8u - 19u",
+      "saturday": "Zaterdag: 9u - 14u",
+      "sunday": "Zondag: Gesloten",
+      "weekdaysLabel": "Weekdagen",
+      "saturdayLabel": "Zaterdag",
+      "sundayLabel": "Zondag"
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "name": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoon (optioneel)",
+      "subject": "Onderwerp",
+      "subjects": {
+        "appointment": "Afspraak aanvragen",
+        "general": "Algemene vraag",
+        "other": "Andere"
+      },
+      "message": "Bericht",
+      "submit": "Versturen",
+      "success": "Bedankt! Uw bericht is verzonden. Wij antwoorden u zo snel mogelijk.",
+      "error": "Er is een fout opgetreden. Probeer het opnieuw."
+    }
+  },
+  "steps": {
+    "sectionTitle": "Hoe werkt het",
+    "sectionSubtitle": "Een eenvoudig en persoonlijk traject",
+    "items": [
+      {
+        "title": "Maak een afspraak",
+        "description": "Neem contact op per telefoon, e-mail of via ons online formulier."
+      },
+      {
+        "title": "Eerste consultatie",
+        "description": "Ontmoet uw therapeut voor een volledig en persoonlijk assessment."
+      },
+      {
+        "title": "Behandelplan",
+        "description": "Ontvang een zorgprogramma dat is afgestemd op uw specifieke behoeften."
+      },
+      {
+        "title": "Regelmatige opvolging",
+        "description": "Geniet van continue begeleiding om uw vooruitgang te volgen."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Multidisciplinaire therapiepraktijk in het hart van Molenbeek.",
+    "quickLinks": "Snelle links",
+    "ourServices": "Onze diensten",
+    "contactInfo": "Contact",
+    "legal": "Juridische informatie",
+    "privacy": "Privacybeleid",
+    "cookies": "Cookiebeleid",
+    "terms": "Algemene voorwaarden",
+    "copyright": "© {year} Assbane Therapy. Alle rechten voorbehouden."
+  },
+  "booking": {
+    "pageTitle": "Afspraak maken",
+    "pageSubtitle": "Boek uw consultatie in enkele eenvoudige stappen",
+    "steps": {
+      "service": "Dienst",
+      "practitioner": "Behandelaar",
+      "datetime": "Datum & tijd",
+      "info": "Uw gegevens",
+      "confirm": "Bevestiging"
+    },
+    "selectService": "Kies een dienst",
+    "selectPractitioner": "Kies uw behandelaar",
+    "selectDate": "Kies een datum",
+    "selectTime": "Kies een tijdstip",
+    "availableSlots": "Beschikbare tijdsloten",
+    "noSlots": "Geen beschikbare tijdsloten voor deze datum",
+    "morning": "Ochtend",
+    "afternoon": "Namiddag",
+    "patientInfo": "Uw gegevens",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "notes": "Opmerkingen (optioneel)",
+    "notesPlaceholder": "Beschrijf kort de reden van uw bezoek...",
+    "newPatient": "Ik ben een nieuwe patiënt",
+    "acceptTerms": "Ik accepteer het privacybeleid",
+    "back": "Terug",
+    "next": "Volgende",
+    "bookNow": "Afspraak bevestigen",
+    "summary": "Overzicht",
+    "summaryService": "Dienst",
+    "summaryPractitioner": "Behandelaar",
+    "summaryDate": "Datum",
+    "summaryTime": "Tijd",
+    "summaryPatient": "Patiënt",
+    "success": {
+      "title": "Afspraak bevestigd!",
+      "message": "Uw afspraak is geregistreerd. U ontvangt een bevestigingsmail op {email}.",
+      "reference": "Referentie",
+      "backHome": "Terug naar home",
+      "bookAnother": "Nog een afspraak maken"
+    },
+    "any": "Geen voorkeur"
+  }
+}

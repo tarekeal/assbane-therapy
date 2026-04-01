@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "bookAppointment": "Prendre rendez-vous"
+  },
+  "hero": {
+    "home": {
+      "headline": "Votre bien-être, notre priorité",
+      "subtitle": "Cabinet de thérapie multidisciplinaire à Molenbeek. Kinésithérapie, psychologie et pédicure médicale dans un cadre bienveillant.",
+      "cta": "Prendre rendez-vous",
+      "ctaSecondary": "Découvrir nos services"
+    },
+    "services": {
+      "headline": "Nos services",
+      "subtitle": "Une approche globale pour votre santé physique et mentale"
+    },
+    "about": {
+      "headline": "Notre histoire",
+      "subtitle": "Fondé par Salah Assbane, notre cabinet accompagne les habitants de Molenbeek et de Bruxelles vers un mieux-être durable."
+    },
+    "contact": {
+      "headline": "Contactez-nous",
+      "subtitle": "Prenez rendez-vous ou posez-nous vos questions. Nous sommes à votre écoute."
+    }
+  },
+  "services": {
+    "sectionTitle": "Nos services",
+    "sectionSubtitle": "Des soins adaptés à vos besoins",
+    "learnMore": "En savoir plus",
+    "bookService": "Réserver ce service",
+    "physiotherapy": {
+      "name": "Kinésithérapie",
+      "shortDesc": "Rééducation, soulagement des douleurs et récupération après blessure ou chirurgie.",
+      "longDesc": "Notre équipe de kinésithérapeutes utilise des techniques manuelles, des exercices thérapeutiques et des technologies modernes pour vous aider à retrouver votre mobilité et réduire vos douleurs.",
+      "benefits": ["Soulagement des douleurs", "Rééducation post-opératoire", "Amélioration de la mobilité", "Prévention des blessures"]
+    },
+    "psychology": {
+      "name": "Psychologie",
+      "shortDesc": "Accompagnement psychologique pour le stress, l'anxiété, la dépression et les transitions de vie.",
+      "longDesc": "Dans un espace confidentiel et bienveillant, nos psychologues vous accompagnent avec des approches basées sur les preuves pour vous aider à surmonter vos défis.",
+      "benefits": ["Gestion du stress et de l'anxiété", "Soutien en cas de dépression", "Thérapie de couple et familiale", "Accompagnement des transitions de vie"]
+    },
+    "pedicure": {
+      "name": "Pédicure médicale",
+      "shortDesc": "Soins professionnels des pieds pour votre santé et votre confort au quotidien.",
+      "longDesc": "Nos pédicures médicaux traitent les problèmes de pieds courants avec des standards d'hygiène stricts et une attention particulière aux patients diabétiques.",
+      "benefits": ["Soin des ongles incarnés", "Traitement des cors et callosités", "Suivi du pied diabétique", "Hygiène et confort"]
+    },
+    "other": {
+      "name": "Autres soins",
+      "shortDesc": "Des services complémentaires pour une prise en charge globale de votre santé.",
+      "longDesc": "Nous proposons également d'autres services thérapeutiques pour répondre à l'ensemble de vos besoins de santé.",
+      "benefits": ["Approche multidisciplinaire", "Suivi personnalisé", "Coordination des soins", "Conseils préventifs"]
+    }
+  },
+  "team": {
+    "sectionTitle": "Notre équipe",
+    "sectionSubtitle": "Des professionnels qualifiés et bienveillants",
+    "meetTeam": "Découvrir toute l'équipe",
+    "founder": {
+      "name": "Salah Assbane",
+      "role": "Fondateur & Kinésithérapeute",
+      "bio": "Passionné par la santé et le bien-être, Salah a fondé Assbane Therapy avec la vision d'offrir des soins de qualité, accessibles et personnalisés aux habitants de Molenbeek."
+    },
+    "member2": {
+      "name": "Dr. Leila Benali",
+      "role": "Psychologue clinicienne",
+      "bio": "Spécialisée en thérapie cognitivo-comportementale, Leila accompagne ses patients avec empathie et professionnalisme."
+    },
+    "member3": {
+      "name": "Sophie Vandenberghe",
+      "role": "Pédicure médicale",
+      "bio": "Diplômée en pédicure médicale, Sophie apporte une expertise spécifique dans le soin du pied diabétique."
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Témoignages",
+    "sectionSubtitle": "Ce que nos patients disent de nous",
+    "items": [
+      {
+        "quote": "Grâce à Salah, j'ai retrouvé ma mobilité après une opération du genou. Professionnel, attentif et très compétent.",
+        "author": "Marie D.",
+        "location": "Molenbeek",
+        "service": "Kinésithérapie"
+      },
+      {
+        "quote": "Un espace où l'on se sent écouté et respecté. Ma psychologue m'a aidé à traverser une période très difficile.",
+        "author": "Ahmed K.",
+        "location": "Bruxelles",
+        "service": "Psychologie"
+      },
+      {
+        "quote": "Enfin des soins de pieds professionnels près de chez moi. L'hygiène est irréprochable et l'équipe est très douce.",
+        "author": "Fatima B.",
+        "location": "Molenbeek",
+        "service": "Pédicure médicale"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Questions fréquentes",
+    "sectionSubtitle": "Tout ce que vous devez savoir",
+    "items": [
+      {
+        "question": "Comment prendre rendez-vous ?",
+        "answer": "Vous pouvez nous contacter par téléphone, par email ou via le formulaire de contact sur notre site. Nous vous répondrons dans les 24 heures."
+      },
+      {
+        "question": "Acceptez-vous les mutuelles ?",
+        "answer": "Oui, nous travaillons avec la plupart des mutuelles belges. N'hésitez pas à nous contacter pour vérifier votre couverture."
+      },
+      {
+        "question": "Quels sont vos horaires d'ouverture ?",
+        "answer": "Nous sommes ouverts du lundi au vendredi de 8h à 19h, et le samedi de 9h à 14h. Des consultations en soirée sont possibles sur rendez-vous."
+      },
+      {
+        "question": "En quelles langues consultez-vous ?",
+        "answer": "Notre équipe parle français, néerlandais et anglais. Nous pouvons aussi communiquer en arabe."
+      },
+      {
+        "question": "Combien coûte une séance ?",
+        "answer": "Les tarifs varient selon le service. Une séance de kinésithérapie coûte entre 25€ et 45€, avec un remboursement partiel par la mutuelle."
+      },
+      {
+        "question": "Le cabinet est-il accessible aux personnes à mobilité réduite ?",
+        "answer": "Oui, notre cabinet est entièrement accessible aux fauteuils roulants et dispose d'un parking à proximité."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Prêt à prendre soin de vous ?",
+    "subtitle": "Prenez rendez-vous dès aujourd'hui et faites le premier pas vers votre bien-être.",
+    "button": "Prendre rendez-vous"
+  },
+  "contact": {
+    "sectionTitle": "Nous trouver",
+    "address": "Rue de l'Avenir 42, 1080 Molenbeek-Saint-Jean",
+    "phone": "+32 2 000 00 00",
+    "email": "info@assbane-therapy.be",
+    "hours": {
+      "title": "Heures d'ouverture",
+      "weekdays": "Lundi - Vendredi : 8h - 19h",
+      "saturday": "Samedi : 9h - 14h",
+      "sunday": "Dimanche : Fermé",
+      "weekdaysLabel": "Jours de semaine",
+      "saturdayLabel": "Samedi",
+      "sundayLabel": "Dimanche"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone (optionnel)",
+      "subject": "Sujet",
+      "subjects": {
+        "appointment": "Demande de rendez-vous",
+        "general": "Question générale",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Merci ! Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "steps": {
+    "sectionTitle": "Comment ça marche",
+    "sectionSubtitle": "Un parcours simple et personnalisé",
+    "items": [
+      {
+        "title": "Prenez rendez-vous",
+        "description": "Contactez-nous par téléphone, email ou via notre formulaire en ligne."
+      },
+      {
+        "title": "Consultation initiale",
+        "description": "Rencontrez votre thérapeute pour un bilan complet et personnalisé."
+      },
+      {
+        "title": "Plan de traitement",
+        "description": "Recevez un programme de soins adapté à vos besoins spécifiques."
+      },
+      {
+        "title": "Suivi régulier",
+        "description": "Bénéficiez d'un accompagnement continu pour suivre vos progrès."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Cabinet de thérapie multidisciplinaire au cœur de Molenbeek.",
+    "quickLinks": "Liens rapides",
+    "ourServices": "Nos services",
+    "contactInfo": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique des cookies",
+    "terms": "Conditions générales",
+    "copyright": "© {year} Assbane Therapy. Tous droits réservés."
+  },
+  "booking": {
+    "pageTitle": "Prendre rendez-vous",
+    "pageSubtitle": "Réservez votre consultation en quelques étapes simples",
+    "steps": {
+      "service": "Service",
+      "practitioner": "Praticien",
+      "datetime": "Date & heure",
+      "info": "Vos informations",
+      "confirm": "Confirmation"
+    },
+    "selectService": "Choisissez un service",
+    "selectPractitioner": "Choisissez votre praticien",
+    "selectDate": "Choisissez une date",
+    "selectTime": "Choisissez un horaire",
+    "availableSlots": "Créneaux disponibles",
+    "noSlots": "Aucun créneau disponible pour cette date",
+    "morning": "Matin",
+    "afternoon": "Après-midi",
+    "patientInfo": "Vos informations",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "notes": "Notes ou remarques (optionnel)",
+    "notesPlaceholder": "Décrivez brièvement la raison de votre visite...",
+    "newPatient": "Je suis un nouveau patient",
+    "acceptTerms": "J'accepte la politique de confidentialité",
+    "back": "Retour",
+    "next": "Suivant",
+    "bookNow": "Confirmer le rendez-vous",
+    "summary": "Récapitulatif",
+    "summaryService": "Service",
+    "summaryPractitioner": "Praticien",
+    "summaryDate": "Date",
+    "summaryTime": "Heure",
+    "summaryPatient": "Patient",
+    "success": {
+      "title": "Rendez-vous confirmé !",
+      "message": "Votre rendez-vous a bien été enregistré. Vous recevrez un email de confirmation à {email}.",
+      "reference": "Référence",
+      "backHome": "Retour à l'accueil",
+      "bookAnother": "Prendre un autre rendez-vous"
+    },
+    "any": "Indifférent"
+  }
+}
