@@ -1,5 +1,5 @@
 export const contactInfo = {
-  address: "Rue de l'Avenir 42, 1080 Molenbeek-Saint-Jean",
+  address: "Rue des Quatre-Vents 42, 1080 Molenbeek-Saint-Jean",
   phone: "+32 2 000 00 00",
   email: "info@assbane-therapy.be",
   mapEmbedUrl:
