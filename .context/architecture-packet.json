@@ -1,0 +1,182 @@
+{
+  "type": "architecture",
+  "version": "1.0",
+  "metadata": {
+    "skill": "website-project",
+    "project": "assbane-therapy",
+    "created_at": "2026-04-01T14:00:00Z"
+  },
+  "payload": {
+    "component_tree": [
+      "src/app/[locale]/layout.tsx",
+      "src/app/[locale]/page.tsx",
+      "src/app/[locale]/services/page.tsx",
+      "src/app/[locale]/about/page.tsx",
+      "src/app/[locale]/contact/page.tsx",
+      "src/components/navbar.tsx",
+      "src/components/mobile-nav.tsx",
+      "src/components/language-switcher.tsx",
+      "src/components/footer.tsx",
+      "src/components/sections/hero-split.tsx",
+      "src/components/sections/hero-centered.tsx",
+      "src/components/sections/services-grid.tsx",
+      "src/components/sections/services-alternating.tsx",
+      "src/components/sections/team-preview.tsx",
+      "src/components/sections/team-full.tsx",
+      "src/components/sections/testimonials-carousel.tsx",
+      "src/components/sections/faq-accordion.tsx",
+      "src/components/sections/cta-banner.tsx",
+      "src/components/sections/contact-info.tsx",
+      "src/components/sections/contact-form-map.tsx",
+      "src/components/sections/how-it-works.tsx",
+      "src/components/ui/section-wrapper.tsx",
+      "src/components/ui/section-heading.tsx",
+      "src/components/ui/animated-element.tsx",
+      "src/lib/data/services.ts",
+      "src/lib/data/team.ts",
+      "src/lib/data/testimonials.ts",
+      "src/lib/data/faq.ts",
+      "src/lib/data/navigation.ts",
+      "src/lib/data/contact.ts",
+      "src/lib/data/steps.ts",
+      "src/lib/fonts.ts",
+      "messages/fr.json",
+      "messages/nl.json",
+      "messages/en.json",
+      "src/i18n/request.ts",
+      "src/i18n/routing.ts",
+      "src/i18n/navigation.ts",
+      "src/middleware.ts"
+    ],
+    "page_structure": {
+      "/": [
+        "hero-split",
+        "services-grid",
+        "team-preview",
+        "testimonials-carousel",
+        "faq-accordion",
+        "cta-banner",
+        "contact-info"
+      ],
+      "/services": [
+        "hero-centered",
+        "services-alternating",
+        "cta-banner"
+      ],
+      "/about": [
+        "hero-split",
+        "team-full",
+        "how-it-works"
+      ],
+      "/contact": [
+        "hero-centered",
+        "contact-form-map"
+      ]
+    },
+    "implementation_groups": [
+      {
+        "name": "Group A — Layout Shell",
+        "agent": "frontend-engineer",
+        "files": [
+          "src/components/navbar.tsx",
+          "src/components/mobile-nav.tsx",
+          "src/components/language-switcher.tsx",
+          "src/components/footer.tsx",
+          "src/lib/data/navigation.ts"
+        ],
+        "description": "Sticky navbar with mobile sheet menu, language switcher (FR/NL/EN), and 4-column footer. These are rendered in the root layout and shared across all pages."
+      },
+      {
+        "name": "Group B — Shared Sections & UI Primitives",
+        "agent": "frontend-engineer",
+        "files": [
+          "src/components/sections/hero-split.tsx",
+          "src/components/sections/hero-centered.tsx",
+          "src/components/sections/cta-banner.tsx",
+          "src/components/ui/section-wrapper.tsx",
+          "src/components/ui/section-heading.tsx",
+          "src/components/ui/animated-element.tsx",
+          "src/lib/fonts.ts"
+        ],
+        "description": "Reusable hero variants (split and centered, parameterized via props/i18n keys), CTA banner, and shared UI primitives (section wrapper with consistent spacing, heading component, scroll-reveal animation wrapper, font configuration)."
+      },
+      {
+        "name": "Group C — Home Page Sections",
+        "agent": "frontend-engineer",
+        "files": [
+          "src/components/sections/services-grid.tsx",
+          "src/components/sections/team-preview.tsx",
+          "src/components/sections/testimonials-carousel.tsx",
+          "src/components/sections/faq-accordion.tsx",
+          "src/components/sections/contact-info.tsx",
+          "src/lib/data/services.ts",
+          "src/lib/data/team.ts",
+          "src/lib/data/testimonials.ts",
+          "src/lib/data/faq.ts",
+          "src/lib/data/contact.ts"
+        ],
+        "description": "All home-specific section components: 4-card service grid, team preview (founder + practitioners), testimonial carousel (3 cards), FAQ accordion (6 items), and contact info block (address, phone, email, map embed, hours). Includes corresponding data files."
+      },
+      {
+        "name": "Group D — Inner Page Sections",
+        "agent": "frontend-engineer",
+        "files": [
+          "src/components/sections/services-alternating.tsx",
+          "src/components/sections/team-full.tsx",
+          "src/components/sections/how-it-works.tsx",
+          "src/components/sections/contact-form-map.tsx",
+          "src/lib/data/steps.ts"
+        ],
+        "description": "Sections unique to inner pages: alternating-row service details (Services page), full team profiles with bios (About page), 4-step how-it-works process (About page), and contact form with embedded map (Contact page)."
+      }
+    ],
+    "shared_dependencies": [
+      "src/components/ui/section-wrapper.tsx",
+      "src/components/ui/section-heading.tsx",
+      "src/components/ui/animated-element.tsx",
+      "src/components/sections/hero-split.tsx",
+      "src/components/sections/hero-centered.tsx",
+      "src/components/sections/cta-banner.tsx",
+      "src/components/navbar.tsx",
+      "src/components/footer.tsx",
+      "src/lib/fonts.ts",
+      "src/lib/data/services.ts",
+      "src/lib/data/team.ts",
+      "src/lib/data/contact.ts"
+    ],
+    "decisions": [
+      {
+        "decision": "Hero components are parameterized, not duplicated per page",
+        "rationale": "hero-split is used on Home and About, hero-centered on Services and Contact. Each accepts i18n keys and optional props (image, layout flip) rather than creating 4 separate hero files. This reduces duplication while keeping each variant a single file."
+      },
+      {
+        "decision": "CTA banner is a single shared component",
+        "rationale": "Used on Home and Services pages with identical layout but different copy. Translation keys differentiate per-page usage. Listed in shared_dependencies so both Group C and Group D can import it without ownership conflict."
+      },
+      {
+        "decision": "Data files are co-located with the group that primarily authors them",
+        "rationale": "services.ts and team.ts live in Group C (home sections) because that group creates the initial data structures. Group D reuses them via import. contact.ts is in Group C since the home contact-info section is the primary consumer; the contact page form-map reuses it."
+      },
+      {
+        "decision": "Separate mobile-nav component extracted from navbar",
+        "rationale": "The mobile sheet menu has enough complexity (animation, overlay, accordion sub-items, language switcher) to warrant its own file. Keeps navbar.tsx focused on the desktop sticky bar. Both are in Group A."
+      },
+      {
+        "decision": "UI primitives (section-wrapper, section-heading, animated-element) in Group B",
+        "rationale": "These are consumed by every section across all groups. Placing them in Group B (shared sections) means they are built first alongside the hero components, which are also the first sections visible on every page. Groups C and D depend on Group B completing first."
+      },
+      {
+        "decision": "i18n setup files excluded from implementation groups",
+        "rationale": "Per the rules, next-intl configuration (middleware.ts, i18n/request.ts, i18n/routing.ts, i18n/navigation.ts, messages/*.json) is handled during scaffold phase, not by frontend-engineer agents. These files appear in component_tree for completeness but are not assigned to any group."
+      },
+      {
+        "decision": "Page files excluded from implementation groups",
+        "rationale": "Page assembly (src/app/[locale]/**/page.tsx and layout.tsx) is handled by the orchestrator in Wave D after all section components are built. Pages simply compose sections in order."
+      },
+      {
+        "decision": "No pricing section or component",
+        "rationale": "The design spec explicitly sets pricing to null. Healthcare practices in Belgium typically avoid public pricing due to variable insurance coverage."
+      }
+    ]
+  }
+}

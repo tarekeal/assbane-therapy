@@ -1,0 +1,244 @@
+{
+  "version": "1.0",
+  "meta": {
+    "name": "Assbane Therapy",
+    "source_type": "discovery",
+    "archetype": "organic",
+    "sector": "healthcare",
+    "mood": "calm, professional, welcoming"
+  },
+  "theme": {
+    "mode": "light",
+    "colors": {
+      "primary_hsl": "170 42% 40%",
+      "secondary_hsl": "28 45% 52%",
+      "accent_hsl": "200 50% 55%",
+      "surface_hsl": "160 20% 96%",
+      "background": "#FAFCFB",
+      "foreground": "#1A2B2A",
+      "muted": "#EEF3F1",
+      "muted_foreground": "#5E716D",
+      "border": "#D4DDD9",
+      "card": "#FFFFFF",
+      "card_foreground": "#1A2B2A"
+    },
+    "border_radius": "12px",
+    "shadows": {
+      "sm": "0 1px 3px 0 rgba(26, 43, 42, 0.06), 0 1px 2px -1px rgba(26, 43, 42, 0.06)",
+      "md": "0 4px 12px -2px rgba(26, 43, 42, 0.08), 0 2px 6px -2px rgba(26, 43, 42, 0.04)",
+      "lg": "0 12px 32px -4px rgba(26, 43, 42, 0.10), 0 4px 12px -4px rgba(26, 43, 42, 0.06)"
+    },
+    "surfaces": {
+      "blur": "12px",
+      "gradients": [
+        "linear-gradient(135deg, hsl(170 42% 40%) 0%, hsl(200 50% 55%) 100%)",
+        "linear-gradient(180deg, hsl(160 20% 96%) 0%, hsl(160 15% 92%) 100%)"
+      ],
+      "overlays": [
+        "rgba(26, 43, 42, 0.5)"
+      ]
+    }
+  },
+  "typography": {
+    "fonts": {
+      "sans": "DM Sans",
+      "serif": "Lora",
+      "mono": null
+    },
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap",
+    "heading_font": "serif",
+    "scale": {
+      "h1": {
+        "size": "3.5rem",
+        "weight": "600",
+        "line_height": "1.1",
+        "letter_spacing": "-0.02em"
+      },
+      "h2": {
+        "size": "2.5rem",
+        "weight": "600",
+        "line_height": "1.15",
+        "letter_spacing": "-0.015em"
+      },
+      "h3": {
+        "size": "1.75rem",
+        "weight": "500",
+        "line_height": "1.25",
+        "letter_spacing": "-0.01em"
+      },
+      "h4": {
+        "size": "1.25rem",
+        "weight": "500",
+        "line_height": "1.35",
+        "letter_spacing": "0em"
+      },
+      "body": {
+        "size": "1rem",
+        "weight": "400",
+        "line_height": "1.6",
+        "letter_spacing": "0em"
+      },
+      "small": {
+        "size": "0.875rem",
+        "weight": "400",
+        "line_height": "1.5",
+        "letter_spacing": "0.01em"
+      }
+    },
+    "text_styles": {
+      "uppercase_labels": false,
+      "tight_heading_spacing": true
+    }
+  },
+  "layout": {
+    "max_width": "1280px",
+    "container_padding": {
+      "desktop": "2rem",
+      "tablet": "1.5rem",
+      "mobile": "1rem"
+    },
+    "section_spacing": "py-20 sm:py-28",
+    "grid_pattern": "centered",
+    "density": "balanced",
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    },
+    "nav_classes": "sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-[var(--shadow-sm)]",
+    "footer_classes": "bg-[hsl(170_42%_20%)] text-white py-16"
+  },
+  "motion": {
+    "duration_micro": "200ms",
+    "duration_page": "400ms",
+    "ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "ease_array": [0.4, 0, 0.2, 1],
+    "distance": "20px",
+    "stagger": "0.06s",
+    "page_load": {
+      "type": "stagger-fade-up",
+      "delay_per_element": "0.06s",
+      "initial_delay": "0.2s"
+    },
+    "scroll_reveal": {
+      "type": "fade-up",
+      "threshold": 0.1,
+      "once": true
+    },
+    "hover_effects": {
+      "buttons": "scale(1.02) with shadow-md transition",
+      "cards": "translateY(-4px) with shadow-lg transition",
+      "links": "color shift to primary with underline reveal"
+    },
+    "special": []
+  },
+  "variants": {
+    "hero": "split",
+    "nav": "bar",
+    "footer": "4-column",
+    "features": "card-grid",
+    "testimonials": "card-carousel",
+    "cta": "banner",
+    "pricing": null
+  },
+  "components": {
+    "navbar": {
+      "position": "sticky",
+      "height": "72px",
+      "background": "solid",
+      "has_cta": true,
+      "mobile_menu": "sheet",
+      "items": ["Home", "Services", "Team", "About", "Contact"]
+    },
+    "hero": {
+      "elements": ["headline", "subtitle", "cta_primary", "cta_secondary", "image"],
+      "arrangement": "Text left, image right. Headline + subtitle + 2 CTAs on left, therapy/wellness image on right"
+    },
+    "buttons": {
+      "primary": {
+        "bg": "primary",
+        "text": "white",
+        "radius": "var(--radius)",
+        "padding": "px-6 py-3",
+        "font_weight": "600",
+        "hover": "brightness-110 scale-102 shadow-md"
+      },
+      "secondary": {
+        "bg": "transparent",
+        "text": "primary",
+        "border": "1.5px solid primary",
+        "radius": "var(--radius)",
+        "padding": "px-6 py-3",
+        "font_weight": "500",
+        "hover": "bg-primary/5"
+      }
+    },
+    "cards": {
+      "bg": "card",
+      "border": "1px solid border",
+      "radius": "var(--radius)",
+      "shadow": "var(--shadow-sm)",
+      "padding": "p-6",
+      "hover": "shadow-lg translateY(-4px)"
+    },
+    "badges": null,
+    "inputs": null,
+    "special": []
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Home",
+      "sections": [
+        { "type": "nav", "variant": "bar" },
+        { "type": "hero", "variant": "split", "content_summary": "Welcome headline + Book appointment CTA" },
+        { "type": "features", "variant": "card-grid", "item_count": 4, "content_summary": "Service cards: Physiotherapy, Psychology, Medical Pedicure, + 1 more" },
+        { "type": "team", "variant": null, "content_summary": "Meet the team — founder Salah Assbane + practitioners" },
+        { "type": "testimonials", "variant": "card-carousel", "item_count": 3 },
+        { "type": "faq", "variant": null, "item_count": 6 },
+        { "type": "cta", "variant": "banner", "content_summary": "Book your appointment" },
+        { "type": "contact", "variant": null, "content_summary": "Address in Molenbeek, phone, email, map, hours" },
+        { "type": "footer", "variant": "4-column" }
+      ]
+    },
+    {
+      "path": "/services",
+      "title": "Services",
+      "sections": [
+        { "type": "nav", "variant": "bar" },
+        { "type": "hero", "variant": "centered", "content_summary": "Our Services page header" },
+        { "type": "features", "variant": "alternating-rows", "item_count": 4, "content_summary": "Detailed service descriptions with images" },
+        { "type": "cta", "variant": "banner" },
+        { "type": "footer", "variant": "4-column" }
+      ]
+    },
+    {
+      "path": "/about",
+      "title": "About",
+      "sections": [
+        { "type": "nav", "variant": "bar" },
+        { "type": "hero", "variant": "split", "content_summary": "About the practice + founder story" },
+        { "type": "team", "variant": null, "content_summary": "Full team profiles" },
+        { "type": "steps", "variant": null, "item_count": 4, "content_summary": "How it works — book, consult, treat, follow-up" },
+        { "type": "footer", "variant": "4-column" }
+      ]
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "sections": [
+        { "type": "nav", "variant": "bar" },
+        { "type": "hero", "variant": "centered", "content_summary": "Contact page header" },
+        { "type": "contact", "variant": null, "content_summary": "Contact form + map + address + hours" },
+        { "type": "footer", "variant": "4-column" }
+      ]
+    }
+  ],
+  "assets": {
+    "images": [],
+    "svgs": [],
+    "external_stylesheets": [],
+    "placeholder_strategy": "gradient"
+  }
+}
